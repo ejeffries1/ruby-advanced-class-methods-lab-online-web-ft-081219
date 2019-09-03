@@ -46,6 +46,10 @@ class Song
     song.artist_name = file.split(" - ")[0]
     @@all << song
   end
+  
+  def self.destroy_all
+    @@all.clear
+  end
 
   def self.all
     @@all
