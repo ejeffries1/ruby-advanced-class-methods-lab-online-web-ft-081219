@@ -42,7 +42,7 @@ class Song
   
   def self.create_from_filename(file)
     song = self.new
-    song
+    
     @@all << song
   end
 
